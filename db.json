@@ -1,0 +1,130 @@
+{
+    "students": [
+        {
+            "name": "<student name>",
+            "avatarURL": "<user avatar url>",
+            "lecturesAttended": 10,
+            "totalLectures": 30,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
+        },
+        {
+            "name": "<student name>",
+            "avatarURL": "<user avatar url>",
+            "lecturesAttended": 10,
+            "totalLectures": 30,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
+        },
+        {
+            "name": "<student name>",
+            "avatarURL": "<user avatar url>",
+            "lecturesAttended": 10,
+            "totalLectures": 30,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
+        },
+        {
+            "name": "<student name>",
+            "avatarURL": "<user avatar url>",
+            "lecturesAttended": 10,
+            "totalLectures": 30,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
+        },
+        {
+            "name": "<student name>",
+            "avatarURL": "<user avatar url>",
+            "lecturesAttended": 10,
+            "totalLectures": 30,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
+        },
+        {
+            "name": "<student name>",
+            "avatarURL": "<user avatar url>",
+            "lecturesAttended": 10,
+            "totalLectures": 30,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
+        },
+        {
+            "name": "<student name>",
+            "avatarURL": "<user avatar url>",
+            "lecturesAttended": 10,
+            "totalLectures": 30,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
+        }
+    ]
+}
