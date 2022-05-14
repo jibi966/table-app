@@ -8,7 +8,9 @@ export const SingleItem = () => {
 
   const dispatch = useDispatch();
 
+  // dispatching function to get the details of the student
   useEffect(() => {
+    // function for getting student details
     dispatch(gettingSingleItem(id));
 
     // clean up function for clearing the previous item details from the redux
@@ -47,6 +49,7 @@ export const SingleItem = () => {
             </ul>
             <div className="card-body">
               {/* mapping throgh the nested marks objects */}
+              {/* diplaying the subjects and marks of the specific student */}
               {obj &&
                 Object.keys(obj).map((el, i) => {
                   return (

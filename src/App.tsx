@@ -5,6 +5,7 @@ import { Table } from "./components/Table";
 import { SingleItem } from "./components/SingleItem";
 import { NotFound } from "./components/NotFoundPage";
 
+//  routes used for routing user
 function App() {
   return (
     <div className="App">

@@ -58,6 +58,7 @@ export const Table = () => {
     setPage(page + 1);
   };
 
+  // setting up the value for debouncing
   const handleFilter = (event: ChangeEvent<HTMLInputElement>) => {
     setValue(event.target.value);
   };

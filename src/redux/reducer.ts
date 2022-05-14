@@ -13,6 +13,7 @@ const initialState = {
   load: true,
 };
 
+// reducer for making changes in all data
 const allStudentReducer = (
   state = initialState,
   { type, payload, loading }
@@ -35,6 +36,7 @@ const allStudentReducer = (
   }
 };
 
+// reducer for single data elemnt
 const singleReducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case SET_ONE_DATA:

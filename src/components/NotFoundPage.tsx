@@ -1,3 +1,4 @@
+// not found page
 export const NotFound = () => {
   return (
     <div>
