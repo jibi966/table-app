@@ -5,700 +5,1900 @@
             "name": "Alvira",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 16,
-            "totalLectures": 33
+            "totalLectures": 33,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 2,
             "name": "Layne",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 18,
-            "totalLectures": 50
+            "totalLectures": 50,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 3,
             "name": "Kris",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 1,
-            "totalLectures": 49
+            "totalLectures": 49,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 4,
             "name": "Tarra",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 19,
-            "totalLectures": 32
+            "totalLectures": 32,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 5,
             "name": "Frannie",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 21,
-            "totalLectures": 45
+            "totalLectures": 45,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 6,
             "name": "Carmen",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 26,
-            "totalLectures": 33
+            "totalLectures": 33,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 7,
             "name": "Raimund",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 5,
-            "totalLectures": 45
+            "totalLectures": 45,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 8,
             "name": "Ramsey",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 26,
-            "totalLectures": 34
+            "totalLectures": 34,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 9,
             "name": "Letitia",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 21,
-            "totalLectures": 43
+            "totalLectures": 43,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 10,
             "name": "Briney",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 23,
-            "totalLectures": 41
+            "totalLectures": 41,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 11,
             "name": "Marieann",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 24,
-            "totalLectures": 50
+            "totalLectures": 50,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 12,
             "name": "Dania",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 16,
-            "totalLectures": 41
+            "totalLectures": 41,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 13,
             "name": "Ginger",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 8,
-            "totalLectures": 35
+            "totalLectures": 35,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 14,
             "name": "Pen",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 14,
-            "totalLectures": 35
+            "totalLectures": 35,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 15,
             "name": "Kathy",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 1,
-            "totalLectures": 39
+            "totalLectures": 39,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 16,
             "name": "Loutitia",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 21,
-            "totalLectures": 32
+            "totalLectures": 32,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 17,
             "name": "Gwenora",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 3,
-            "totalLectures": 49
+            "totalLectures": 49,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 18,
             "name": "Garold",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 29,
-            "totalLectures": 48
+            "totalLectures": 48,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 19,
             "name": "Dorita",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 12,
-            "totalLectures": 37
+            "totalLectures": 37,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 20,
             "name": "Allx",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 3,
-            "totalLectures": 35
+            "totalLectures": 35,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 21,
             "name": "Tandie",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 29,
-            "totalLectures": 31
+            "totalLectures": 31,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 22,
             "name": "Remy",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 26,
-            "totalLectures": 47
+            "totalLectures": 47,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 23,
             "name": "Jessamine",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 10,
-            "totalLectures": 49
+            "totalLectures": 49,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 24,
             "name": "Jasun",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 13,
-            "totalLectures": 47
+            "totalLectures": 47,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 25,
             "name": "Merrilee",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 14,
-            "totalLectures": 40
+            "totalLectures": 40,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 26,
             "name": "Ferrell",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 25,
-            "totalLectures": 50
+            "totalLectures": 50,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 27,
             "name": "Gretchen",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 2,
-            "totalLectures": 37
+            "totalLectures": 37,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 28,
             "name": "Ranice",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 28,
-            "totalLectures": 40
+            "totalLectures": 40,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 29,
             "name": "Alix",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 28,
-            "totalLectures": 35
+            "totalLectures": 35,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 30,
             "name": "Merrile",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 30,
-            "totalLectures": 32
+            "totalLectures": 32,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 31,
             "name": "Antonina",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 15,
-            "totalLectures": 40
+            "totalLectures": 40,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 32,
             "name": "Lorin",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 15,
-            "totalLectures": 30
+            "totalLectures": 30,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 33,
             "name": "Chic",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 5,
-            "totalLectures": 40
+            "totalLectures": 40,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 34,
             "name": "Dunn",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 8,
-            "totalLectures": 36
+            "totalLectures": 36,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 35,
             "name": "Nelson",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 17,
-            "totalLectures": 48
+            "totalLectures": 48,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 36,
             "name": "Alyda",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 7,
-            "totalLectures": 46
+            "totalLectures": 46,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 37,
             "name": "Nico",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 4,
-            "totalLectures": 46
+            "totalLectures": 46,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 38,
             "name": "Demetris",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 19,
-            "totalLectures": 49
+            "totalLectures": 49,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 39,
             "name": "Aurea",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 10,
-            "totalLectures": 44
+            "totalLectures": 44,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 40,
             "name": "Robbie",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 13,
-            "totalLectures": 45
+            "totalLectures": 45,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 41,
             "name": "Yank",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 20,
-            "totalLectures": 38
+            "totalLectures": 38,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 42,
             "name": "Filippo",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 14,
-            "totalLectures": 50
+            "totalLectures": 50,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 43,
             "name": "Tadeas",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 21,
-            "totalLectures": 37
+            "totalLectures": 37,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 44,
             "name": "Sumner",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 30,
-            "totalLectures": 44
+            "totalLectures": 44,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 45,
             "name": "Petra",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 17,
-            "totalLectures": 49
+            "totalLectures": 49,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 46,
             "name": "Laurette",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 29,
-            "totalLectures": 41
+            "totalLectures": 41,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 47,
             "name": "Mychal",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 17,
-            "totalLectures": 43
+            "totalLectures": 43,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 48,
             "name": "Clementius",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 5,
-            "totalLectures": 43
+            "totalLectures": 43,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 49,
             "name": "Nelli",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 30,
-            "totalLectures": 40
+            "totalLectures": 40,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 50,
             "name": "Tammara",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 23,
-            "totalLectures": 36
+            "totalLectures": 36,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 51,
             "name": "Purcell",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 29,
-            "totalLectures": 44
+            "totalLectures": 44,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 52,
             "name": "Wit",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 11,
-            "totalLectures": 45
+            "totalLectures": 45,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 53,
             "name": "Brynna",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 6,
-            "totalLectures": 38
+            "totalLectures": 38,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 54,
             "name": "Leoline",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 14,
-            "totalLectures": 33
+            "totalLectures": 33,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 55,
             "name": "Mallissa",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 14,
-            "totalLectures": 45
+            "totalLectures": 45,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 56,
             "name": "Golda",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 24,
-            "totalLectures": 44
+            "totalLectures": 44,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 57,
             "name": "Janina",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 1,
-            "totalLectures": 40
+            "totalLectures": 40,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 58,
             "name": "Hadleigh",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 21,
-            "totalLectures": 30
+            "totalLectures": 30,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 59,
             "name": "Mylo",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 10,
-            "totalLectures": 37
+            "totalLectures": 37,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 60,
             "name": "Yoshi",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 2,
-            "totalLectures": 38
+            "totalLectures": 38,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 61,
             "name": "Rowena",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 17,
-            "totalLectures": 50
+            "totalLectures": 50,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 62,
             "name": "Sutherland",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 12,
-            "totalLectures": 40
+            "totalLectures": 40,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 63,
             "name": "Kaycee",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 18,
-            "totalLectures": 35
+            "totalLectures": 35,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 64,
             "name": "Jeanelle",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 3,
-            "totalLectures": 44
+            "totalLectures": 44,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 65,
             "name": "Nari",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 19,
-            "totalLectures": 48
+            "totalLectures": 48,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 66,
             "name": "Robby",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 7,
-            "totalLectures": 43
+            "totalLectures": 43,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 67,
             "name": "Cesaro",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 21,
-            "totalLectures": 33
+            "totalLectures": 33,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 68,
             "name": "Aliza",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 20,
-            "totalLectures": 48
+            "totalLectures": 48,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 69,
             "name": "Menard",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 15,
-            "totalLectures": 33
+            "totalLectures": 33,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 70,
             "name": "Bryanty",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 5,
-            "totalLectures": 50
+            "totalLectures": 50,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 71,
             "name": "Gaby",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 8,
-            "totalLectures": 44
+            "totalLectures": 44,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 72,
             "name": "Liane",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 22,
-            "totalLectures": 42
+            "totalLectures": 42,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 73,
             "name": "Vivien",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 10,
-            "totalLectures": 31
+            "totalLectures": 31,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 74,
             "name": "Joela",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 25,
-            "totalLectures": 41
+            "totalLectures": 41,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 75,
             "name": "Eugene",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 20,
-            "totalLectures": 30
+            "totalLectures": 30,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 76,
             "name": "Brandea",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 3,
-            "totalLectures": 38
+            "totalLectures": 38,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 77,
             "name": "Boniface",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 2,
-            "totalLectures": 35
+            "totalLectures": 35,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 78,
             "name": "Ev",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 11,
-            "totalLectures": 41
+            "totalLectures": 41,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 79,
             "name": "Terri",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 2,
-            "totalLectures": 36
+            "totalLectures": 36,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 80,
             "name": "Tracey",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 7,
-            "totalLectures": 47
+            "totalLectures": 47,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 81,
             "name": "Minna",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 2,
-            "totalLectures": 43
+            "totalLectures": 43,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 82,
             "name": "Berkie",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 21,
-            "totalLectures": 35
+            "totalLectures": 35,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 83,
             "name": "Mirabella",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 18,
-            "totalLectures": 31
+            "totalLectures": 31,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 84,
             "name": "Tiffani",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 29,
-            "totalLectures": 47
+            "totalLectures": 47,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 85,
             "name": "Starr",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 14,
-            "totalLectures": 33
+            "totalLectures": 33,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 86,
             "name": "Marquita",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 2,
-            "totalLectures": 41
+            "totalLectures": 41,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 87,
             "name": "Alan",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 20,
-            "totalLectures": 32
+            "totalLectures": 32,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 88,
             "name": "Bertrand",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 23,
-            "totalLectures": 43
+            "totalLectures": 43,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 89,
             "name": "Davin",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 7,
-            "totalLectures": 46
+            "totalLectures": 46,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 90,
             "name": "Eziechiele",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 26,
-            "totalLectures": 39
+            "totalLectures": 39,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 91,
             "name": "Rhysabcd",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 9,
-            "totalLectures": 42
+            "totalLectures": 42,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 92,
             "name": "Rhysabcd",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 16,
-            "totalLectures": 41
+            "totalLectures": 41,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 93,
             "name": "Olympia",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 30,
-            "totalLectures": 32
+            "totalLectures": 32,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 94,
             "name": "Rhysabcd",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 21,
-            "totalLectures": 46
+            "totalLectures": 46,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 95,
             "name": "Rhysabcds",
             "avatarURL": "http://dummyimage.com/106x100.png/dddddd/000000",
             "lecturesAttended": 21,
-            "totalLectures": 43
+            "totalLectures": 43,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 96,
             "name": "Rhysa",
             "avatarURL": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
             "lecturesAttended": 7,
-            "totalLectures": 42
+            "totalLectures": 42,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 97,
             "name": "Rhysab",
             "avatarURL": "http://dummyimage.com/106x100.png/ff4444/ffffff",
             "lecturesAttended": 24,
-            "totalLectures": 34
+            "totalLectures": 34,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 98,
             "name": "Rhysabc",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 18,
-            "totalLectures": 36
+            "totalLectures": 36,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 99,
             "name": "Rhysabcd",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 5,
-            "totalLectures": 37
+            "totalLectures": 37,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         },
         {
             "id": 100,
             "name": "Rhysabcde",
             "avatarURL": "http://dummyimage.com/106x100.png/cc0000/ffffff",
             "lecturesAttended": 30,
-            "totalLectures": 46
+            "totalLectures": 46,
+            "marks": {
+                "mth101": {
+                    "subjectTitle": "Introduction to mathematics",
+                    "totalMarks": 100,
+                    "markesObtained": 56
+                },
+                "eng112": {
+                    "subjectTitle": "English diagnostics",
+                    "totalMarks": 100,
+                    "markesObtained": 76
+                }
+            }
         }
     ]
 }

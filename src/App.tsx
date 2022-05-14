@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Table />} />
         <Route path="details/:id" element={<SingleItem />} />
-        <Route path="*" element={<SingleItem />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );

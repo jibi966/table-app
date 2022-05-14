@@ -11,14 +11,15 @@ export const SingleItem = () => {
   useEffect(() => {
     dispatch(gettingSingleItem(id));
 
-    // clean up function
+    // clean up function for clearing the previous item details from the redux
     return () => {
       dispatch(unSetSingle());
     };
   }, []);
 
   const data = useSelector((store) => store.singleReducer.oneStudent);
-  console.log(data);
+  const obj = data && data.marks;
+  console.log("obj:", obj);
   return (
     <>
       {!data ? (
@@ -45,12 +46,21 @@ export const SingleItem = () => {
               </li>
             </ul>
             <div className="card-body">
-              <a href="#" className="card-link">
-                Card link
-              </a>
-              <a href="#" className="card-link">
-                Another link
-              </a>
+              {obj &&
+                Object.keys(obj).map((el, i) => {
+                  return (
+                    <ul className="list-group list-group-flush">
+                      {" "}
+                      <li className="list-group-item">
+                        Subject: {obj[el].subjectTitle}
+                        <br />
+                        Total Marks: {obj[el].totalMarks}
+                        <br />
+                        Marks Obtained: {obj[el].markesObtained}
+                      </li>
+                    </ul>
+                  );
+                })}
             </div>
           </div>
         </div>
