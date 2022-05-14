@@ -5,7 +5,8 @@ export const ADD_FIRST_LOAD = "ADD_FIRST_LOAD";
 export const LOADING_LOAD = "LOADING_LOAD";
 export const DEBOUNCE_LOAD = "DEBOUNCE_LOAD";
 export const ADD_AFTER_SEARCH = "ADD_AFTER_SEARCH";
-
+export const SET_ONE_DATA = "SET_ONE_DATA";
+export const UNSET_ONE_DATA = "UNSET_ONE_DATA";
 // action creators
 
 // action for the first load
@@ -38,6 +39,22 @@ const addAfterSearch = (data: any) => {
   return {
     type: ADD_AFTER_SEARCH,
     payload: data,
+  };
+};
+
+// for setting single data
+
+const setSingle = (data: any) => {
+  return {
+    type: SET_ONE_DATA,
+    payload: data,
+  };
+};
+// for unsetting the data
+
+export const unSetSingle = () => {
+  return {
+    type: UNSET_ONE_DATA,
   };
 };
 
@@ -78,5 +95,13 @@ export const debouncingData = (debouncedValue) => (dispatch) => {
 export const addingAllAfterSearch = () => (dispatch) => {
   axios.get("http://localhost:5050/students").then((res) => {
     dispatch(addAfterSearch(res.data));
+  });
+};
+
+// setting up single item
+
+export const gettingSingleItem = (id) => (dispatch) => {
+  axios.get(`http://localhost:5050/students/${id}`).then((res) => {
+    dispatch(setSingle(res.data));
   });
 };

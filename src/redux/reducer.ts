@@ -4,6 +4,8 @@ import {
   LOADING_LOAD,
   DEBOUNCE_LOAD,
   ADD_AFTER_SEARCH,
+  SET_ONE_DATA,
+  UNSET_ONE_DATA,
 } from "./action";
 const initialState = {
   allStudents: [],
@@ -33,6 +35,18 @@ const allStudentReducer = (
   }
 };
 
+const singleReducer = (state = initialState, { type, payload }) => {
+  switch (type) {
+    case SET_ONE_DATA:
+      return { oneStudent: payload };
+    case UNSET_ONE_DATA:
+      return {};
+    default:
+      return state;
+  }
+};
+
 export const reducer = combineReducers({
   allReducer: allStudentReducer,
+  singleReducer: singleReducer,
 });

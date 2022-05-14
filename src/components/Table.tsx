@@ -1,12 +1,15 @@
 // @ts-nocheck
-import axios from "axios";
 import { ChangeEvent, useEffect, useState } from "react";
+
+import InfiniteScroll from "react-infinite-scroll-component";
+
+import { useSelector, useDispatch } from "react-redux";
+
+import { useNavigate } from "react-router-dom";
 
 import "./Table.css";
 
 import useDebounce from "./Debouncer";
-
-import InfiniteScroll from "react-infinite-scroll-component";
 
 import {
   addingFirst,
@@ -15,47 +18,49 @@ import {
   addingAllAfterSearch,
 } from "../redux/action";
 
-import { useSelector, useDispatch } from "react-redux";
-
 export const Table = () => {
   const dispatch = useDispatch();
-  const [items, setItems] = useState([]);
 
-  const [noMore, setNoMore] = useState<boolean>(true);
+  const navigate = useNavigate();
 
   const [page, setPage] = useState(2);
 
   const [value, setValue] = useState<string>("");
 
   const data = useSelector((store: any) => store.allReducer.allStudents);
+
   const Loading = useSelector((store: any) => store.allReducer.load);
 
+  const debouncedValue = useDebounce<string>(value, 500);
+
+  // useEffect calling for first time
   useEffect(() => {
     // dispatching function for loading first set of elements
     dispatch(addingFirst());
   }, []);
 
+  // calling useEffect on debouncingData
+  useEffect(() => {
+    // if the user types more than one character
+    if (debouncedValue.length >= 3) {
+      dispatch(debouncingData(debouncedValue));
+    }
+    // for restoring redux state after search
+    else if (debouncedValue.length > 0 && debouncedValue.length < 3) {
+      dispatch(addingAllAfterSearch());
+    }
+  }, [debouncedValue]);
+
   const fetchData = () => {
     // dispatching function to load more data from
     dispatch(addingAllData(page));
-
     // increasing the page number
     setPage(page + 1);
   };
 
-  const debouncedValue = useDebounce<string>(value, 500);
-
   const handleFilter = (event: ChangeEvent<HTMLInputElement>) => {
     setValue(event.target.value);
   };
-
-  useEffect(() => {
-    if (debouncedValue.length >= 3) {
-      dispatch(debouncingData(debouncedValue));
-    } else if (debouncedValue.length > 0 && debouncedValue.length < 3) {
-      dispatch(addingAllAfterSearch());
-    }
-  }, [debouncedValue]);
 
   return (
     <div className="container">
@@ -76,6 +81,7 @@ export const Table = () => {
           }
         >
           <table className="table table-success table-striped">
+            {/* table data */}
             <thead>
               <tr>
                 <th scope="col">ID</th>
@@ -88,8 +94,12 @@ export const Table = () => {
             <tbody>
               {data &&
                 data.map((item) => {
+                  // mapping the data to rows
                   return (
-                    <tr>
+                    <tr
+                      onClick={() => navigate(`details/${item.id}`)}
+                      key={`item.id`}
+                    >
                       <th scope="row">{item.id}</th>
                       <td>{item.name}</td>
                       <td>
