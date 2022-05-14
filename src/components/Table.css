@@ -1,0 +1,31 @@
+.data-list {
+  max-height: 150px;
+  overflow: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  z-index: -1;
+}
+
+.data-list::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  position: relative;
+}
+.scroll-container {
+  top: 0;
+  left: 0;
+}
+
+.data-list > div {
+  width: 200px;
+  height: 50px;
+  border-top: 1px solid teal;
+  align-items: center;
+}
