@@ -1,5 +1,5 @@
+// @ts-nocheck
 import axios from "axios";
-
 import { ChangeEvent, useEffect, useState } from "react";
 
 import "./Table.css";
@@ -8,7 +8,12 @@ import useDebounce from "./Debouncer";
 
 import InfiniteScroll from "react-infinite-scroll-component";
 
+import { addingFirst, addingAllData } from "../redux/action";
+
+import { useSelector, useDispatch } from "react-redux";
+
 export const Table = () => {
+  const dispatch = useDispatch();
   const [items, setItems] = useState([]);
 
   const [noMore, setNoMore] = useState<boolean>(true);
@@ -17,29 +22,18 @@ export const Table = () => {
 
   const [value, setValue] = useState<string>("");
 
-  const getStudents = () => {
-    axios
-      .get("http://localhost:5050/students?_page=1&_limit=20")
-      .then((res) => {
-        setItems(res.data);
-      });
-  };
+  const data = useSelector((store: any) => store.allReducer.allStudents);
+
   useEffect(() => {
-    getStudents();
+    dispatch(addingFirst());
   }, []);
 
   const fetchData = () => {
-    axios
-      .get(`http://localhost:5050/students?_page=${page}&_limit=20`)
-      .then((res) => {
-        if (res.data.length === 0 || res.data.length < 20) {
-          setNoMore(false);
-        }
-        setItems([...items, ...res.data]);
-      })
-      .then(() => {
-        setPage(page + 1);
-      });
+    dispatch(addingAllData(page));
+    if (data.length === 0 || data.length < 20) {
+      setNoMore(false);
+    }
+    setPage(page + 1);
   };
 
   const debouncedValue = useDebounce<string>(value, 500);
@@ -57,7 +51,7 @@ export const Table = () => {
         });
     } else {
       setNoMore(true);
-      getStudents();
+      dispatch(addingFirst());
     }
   }, [debouncedValue]);
 
@@ -67,7 +61,7 @@ export const Table = () => {
 
       <div className="scroll-container">
         <InfiniteScroll
-          dataLength={items.length} //This is important field to render the next data
+          dataLength={data && data.length} //This is important field to render the next data
           next={fetchData}
           hasMore={noMore}
           loader={<h4>Loading...</h4>}
@@ -88,8 +82,8 @@ export const Table = () => {
               </tr>
             </thead>
             <tbody>
-              {items &&
-                items.map((item) => {
+              {data &&
+                data.map((item) => {
                   return (
                     <tr>
                       <th scope="row">{item.id}</th>
