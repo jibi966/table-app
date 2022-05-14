@@ -4,30 +4,27 @@ import { ChangeEvent, useEffect, useState } from "react";
 
 import "./Table.css";
 
-import { useDebounce } from "usehooks-ts";
+import useDebounce from "./Debouncer";
 
 import InfiniteScroll from "react-infinite-scroll-component";
 
 export const Table = () => {
   const [items, setItems] = useState([]);
 
-  const [noMore, setNoMore] = useState(true);
+  const [noMore, setNoMore] = useState<boolean>(true);
 
   const [page, setPage] = useState(2);
 
-  const [filterData, setFilterData] = useState([]);
-
   const [value, setValue] = useState<string>("");
 
+  const getStudents = () => {
+    axios
+      .get("http://localhost:5050/students?_page=1&_limit=20")
+      .then((res) => {
+        setItems(res.data);
+      });
+  };
   useEffect(() => {
-    const getStudents = async () => {
-      axios
-        .get("http://localhost:5050/students?_page=1&_limit=20")
-        .then((res) => {
-          setItems(res.data);
-        });
-    };
-
     getStudents();
   }, []);
 
@@ -56,24 +53,17 @@ export const Table = () => {
       axios
         .get(`http://localhost:5050/students?q=${debouncedValue}`)
         .then((res) => {
-          setFilterData(res.data);
+          setItems(res.data);
         });
     } else {
-      setFilterData([]);
+      setNoMore(true);
+      getStudents();
     }
   }, [debouncedValue]);
 
   return (
     <div className="container">
       <input placeholder="Seacrh name..." type="text" onChange={handleFilter} />
-      {filterData.length !== 0 && (
-        <div className="data-list">
-          {" "}
-          {filterData.map((val) => {
-            return <div className="data-item">{val.name}</div>;
-          })}{" "}
-        </div>
-      )}
 
       <div className="scroll-container">
         <InfiniteScroll
