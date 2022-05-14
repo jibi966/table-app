@@ -46,10 +46,11 @@ export const SingleItem = () => {
               </li>
             </ul>
             <div className="card-body">
+              {/* mapping throgh the nested marks objects */}
               {obj &&
                 Object.keys(obj).map((el, i) => {
                   return (
-                    <ul className="list-group list-group-flush">
+                    <ul className="list-group list-group-flush" key={i}>
                       {" "}
                       <li className="list-group-item">
                         Subject: {obj[el].subjectTitle}

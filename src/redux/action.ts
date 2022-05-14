@@ -60,9 +60,14 @@ export const unSetSingle = () => {
 
 // dispatching function from react on first load
 export const addingFirst = () => (dispatch) => {
-  axios.get("http://localhost:5050/students?_page=1&_limit=20").then((res) => {
-    dispatch(addFirstLoad(res.data));
-  });
+  axios
+    .get("http://localhost:5050/students?_page=1&_limit=20")
+    .then((res) => {
+      dispatch(addFirstLoad(res.data));
+    })
+    .catch(() => {
+      alert("Server Error");
+    });
 };
 
 // dispatching function from react on scrolling
@@ -79,6 +84,9 @@ export const addingAllData = (page: number) => (dispatch) => {
         value = true;
       }
       dispatch(loadingLoad(res.data, value));
+    })
+    .catch(() => {
+      alert("Server Error");
     });
 };
 
@@ -88,20 +96,33 @@ export const debouncingData = (debouncedValue) => (dispatch) => {
     .get(`http://localhost:5050/students?q=${debouncedValue}`)
     .then((res) => {
       dispatch(debounceSearch(res.data));
+    })
+    .catch(() => {
+      alert("Server Error");
     });
 };
 
 // adding all the items in the table after user clear the search bar
 export const addingAllAfterSearch = () => (dispatch) => {
-  axios.get("http://localhost:5050/students").then((res) => {
-    dispatch(addAfterSearch(res.data));
-  });
+  axios
+    .get("http://localhost:5050/students")
+    .then((res) => {
+      dispatch(addAfterSearch(res.data));
+    })
+    .catch(() => {
+      alert("Server Error");
+    });
 };
 
-// setting up single item
+// setting up single item description
 
 export const gettingSingleItem = (id) => (dispatch) => {
-  axios.get(`http://localhost:5050/students/${id}`).then((res) => {
-    dispatch(setSingle(res.data));
-  });
+  axios
+    .get(`http://localhost:5050/students/${id}`)
+    .then((res) => {
+      dispatch(setSingle(res.data));
+    })
+    .catch(() => {
+      alert("Server Error");
+    });
 };
